@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Amber Gemstone Hexagonal Outline / Crystal Base -->
+        <path
+            android:pathData="M54,23 L79,37 L79,71 L54,85 L29,71 L29,37 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="29"
+                    android:startY="23"
+                    android:endX="79"
+                    android:endY="85"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FFF3E0" />
+                    <item android:offset="0.3" android:color="#FFA726" />
+                    <item android:offset="0.7" android:color="#F57C00" />
+                    <item android:offset="1.0" android:color="#E65100" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Facet highlights -->
+        <path
+            android:pathData="M54,23 L54,85 M29,37 L79,71 M29,71 L79,37"
+            android:strokeWidth="1.2"
+            android:strokeColor="#66FFFFFF" />
+        <!-- Inner Glow Polygon -->
+        <path
+            android:pathData="M54,30 L73,41 L73,67 L54,78 L35,67 L35,41 Z"
+            android:fillColor="#33FFCC80" />
+        <!-- Stylized musical note silhouette centered inside the amber gem -->
+        <path
+            android:pathData="M61,40 L61,60.5 A4.5,4.5 0 1,1 56.5,56 A4.5,4.5 0 0,1 61,59.5 L61,45 L47,48.5 L47,64.5 A4.5,4.5 0 1,1 42.5,60 A4.5,4.5 0 0,1 47,63.5 L47,44 Z"
+            android:fillColor="#150D18" />
+        <path
+            android:pathData="M60.5,41 L60.5,60.5 A3.5,3.5 0 1,1 57,57 A3.5,3.5 0 0,1 60.5,59.8 L60.5,45.8 L47.5,49 L47.5,64.5 A3.5,3.5 0 1,1 44,61 A3.5,3.5 0 0,1 47.5,63.8 L47.5,45 Z"
+            android:fillColor="#FFF8E1" />
+    </group>
+</vector>
